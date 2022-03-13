@@ -3,7 +3,7 @@ import sys
 
 from PyQt5 import uic, QtWidgets
 
-qtCreatorFile = "N5_Plantilla.ui"   # Nombre del archivo aqui
+qtCreatorFile = "N5_Distancia_entre_2_Puntos.ui"   # Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
